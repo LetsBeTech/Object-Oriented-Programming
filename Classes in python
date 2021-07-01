@@ -1,0 +1,17 @@
+#Lets start creating a basic class program to calculate the sum of 2 numbers
+
+#Defining class
+class Number:
+    def sum(self):
+        return self.a + self.b
+
+num = Number()
+
+num.a = 12
+num.b = 34
+
+s = num.sum()
+
+print("The sum of a and b is ",s)
+
+#Our first OOP Program is ready!
